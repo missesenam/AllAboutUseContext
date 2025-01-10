@@ -5,6 +5,7 @@ import CountContext from "./assets/component/CountContext";
 import ThemeAndUserContext from "./assets/component/ThemeAndUserContext";
 import ToggleTheme from "./assets/component/ToggleTheme";
 import FormContext from "./assets/component/FormContext";
+import FormContextApp from "./assets/component/FormContextApp";
 
 const MyFirstContext = createContext();
 
@@ -19,7 +20,7 @@ const App = () => {
         <CountContext />
         <ThemeAndUserContext />
         <ToggleTheme />
-        <FormContext />
+        <FormContextApp />
       </div>
     </div>
   );
