@@ -1,8 +1,9 @@
-import React from "react";
+import React, { useState } from "react";
 import FormContext from "./FormContext";
 import Display from "./Display";
 
 const FormContextApp = () => {
+  const [data, setData] = useState("");
   return (
     <div
       style={{
