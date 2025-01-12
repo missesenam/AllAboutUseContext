@@ -5,6 +5,7 @@ import Display from "./Display";
 const FormContextApp = () => {
   const [data, setData] = useState("");
   return (
+    // a comment
     <div
       style={{
         backgroundColor: "red",
